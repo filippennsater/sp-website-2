@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Great+Vibes&display=swap');
+
+.about-container{
+    background: url('../../../public/images/chamomile-big.png') center center/cover no-repeat;
+    //background-attachment:  fixed;
+    background-color: rgb(116, 58, 107);
+    min-height: 100vh;
+    height: flex;
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    object-fit: contain;
+    z-index: 21;
+    overflow: hidden;
+}
+
+.cards-container {
+    //background-color: black;
+    display: flex;
+    width: flex;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow the cards to wrap to the next line if they don't fit */
+}
+
+.info-card1, .info-card2, .info-card3, .info-card4 {
+    display: flex;
+    background-color: #442144;
+    width: 400px;
+    height: 600px;
+    margin: 20px;
+    border-radius: 20px;
+    border-width: 4px;
+    border-color: #ffffff;
+    border-style:solid;
+    //text-align: center;
+    flex-flow: column;
+    padding: calc(10px + 0.3vw);
+}
+
+.info-card2 {
+    background-color: #442144;
+}
+
+.info-card3 {
+    background-color: #442144;
+    background: url('../../../public/images/MoP.jpg') center center/cover no-repeat;
+    //filter: saturate(0%);
+    transition: 500ms;
+}
+
+/*.info-card3:hover {
+    background-color: #155826;
+    filter: saturate(100%);
+    transition: 500ms;
+}*/
+
+.info-card4 {
+    background-color: #581132;
+}
+
+.header-container{
+    width: 100%;
+    text-align: center;
+}
+
+.about-header{
+    font-family: "Edu VIC WA NT", cursive;
+    color: #ffffff;
+    font-size: calc(25px + 0.25vw);
+    font-weight: 600;
+    line-height: 1.5;
+    
+    text-decoration: inherit;
+}
+.about-text{
+    font-family: "Edu VIC WA NT", cursive;
+    color: #ffffff;
+    font-size: calc(18px + 0.25vw);
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 5%;
+    
+    text-decoration: inherit;
+}
+
+@media screen and (max-width: 1700px) {
+
+    .info-card1, .info-card2, .info-card3, .info-card4 {
+        width: 350px;
+        height: 500px;
+    }
+
+    .info-card1{
+        margin-top: 100px;
+    }
+
+    .about-container{
+        //background: url('../../../public/images/chamomile-mobile.png') center center/cover no-repeat;
+        background: none;
+        background-color: rgb(109, 42, 99);
+    }
+    
+}
+
