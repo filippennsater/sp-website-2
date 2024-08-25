@@ -11,7 +11,7 @@ function AboutSection() {
 
                 <div className='info-card1'>
                     <div className='header-container'>
-                        <div className='about-header'>OM</div>
+                        {/*<div className='about-header'>OM</div>*/}
                     </div>
                     <div className='about-text'>Efter att ha arbetat inom företagshälsovård i över 20 år och sett det ökande behovet av individanpassad behandling, kände jag en stark drivkraft att starta en egen klinik för att kunna erbjuda skräddarsydd kognitiv beteendeterapi och familjeterapi.<br />Mitt mål är att skapa en trygg och stödjande miljö där klienter kan få den hjälp de behöver för att hantera livets utmaningar.</div>
                 </div>
